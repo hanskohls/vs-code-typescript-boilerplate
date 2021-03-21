@@ -4,5 +4,6 @@ class SimpleDemo {
   }
 }
 
-var demo = new SimpleDemo('This is to show how to setup VSCode with Typescript');
-console.log(demo.message)
+const message: string = 'This is to show how to setup VSCode with Typescript';
+const demo = new SimpleDemo(message);
+console.log(demo.message);
