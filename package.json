@@ -1,7 +1,7 @@
 {
   "name": "vs-code-boilerplate",
   "version": "1.0.0",
-  "description": "",
+  "description": "Project to setup a TypeScript environment in VSCode",
   "main": "build/app.js",
   "scripts": {
     "compile": "tsc && node build/app.js",
